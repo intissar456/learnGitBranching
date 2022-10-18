@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+    long double x, y;
+    printf("Calcul de moyenne\n");
+    printf("Entrez le premier nombre : ");
+    scanf("%Lf", &x);
+    printf("\n Entrez le deuxi�me nombre : ");
+    scanf("%Lf", &y);
+    printf("\n La valeur moyenne de %Lf et de %Lf est %Lf.\n",
+        x, y, (x+y)/2);
+    return 0;
